@@ -1,0 +1,64 @@
+﻿body {
+    background-color: #75827a;
+    font-family: 'Impact';
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#wrapper {
+    width: 990px;
+    height: 830px;
+    margin: 0 auto;
+    background-color: #8c9995;
+}
+.header {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background-color: #3f3d3a;
+    color: #75827a;
+    text-align: center;
+    height: 45px;
+    line-height: 50px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #3f3d3a;
+    color: #75827a;
+    text-align: center;
+    height: 45px;
+    line-height: 50px;
+}
+.label {
+    position: fixed;
+    left: 301px;
+    top: 118px;
+    height: 131px;
+    background-size: cover;
+    color: #3f3d3a;
+    width: 70px;
+}
+.sonuclar {
+    position: fixed;
+    left: 386px;
+    top: 117px;
+    width: 584px;
+    height: 357px;
+    background-size: cover;
+    color: #3f3d3a;
+}
+.anasayfa {
+    position: fixed;
+    left: 225px;
+    top: 119px;
+    width: 65px;
+    height: 70px;
+    background-image: url('/ımages/home.png');
+    background-size: cover;
+}

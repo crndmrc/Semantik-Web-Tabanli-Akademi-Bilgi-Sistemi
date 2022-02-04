@@ -1,0 +1,86 @@
+﻿body {
+    background-color: #75827a;
+    font-family: 'Impact';
+}
+
+* {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    margin: 1px 0 0 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 990px;
+    height: 990px;
+    margin: 0 auto;
+    background-color: #8c9995;
+}
+
+.header {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background-color: #3f3d3a;
+    color: #75827a;
+    text-align: center;
+    height: 45px;
+    line-height: 50px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #3f3d3a;
+    color: #75827a;
+    text-align: center;
+    height: 45px;
+    line-height: 50px;
+}
+.logo {
+    position: fixed;
+    left: 457px;
+    top: 147px;
+    width: 465px;
+    height: 100px;
+    border-right: 1px solid #b6ff00;
+    background-image: url('/ımages/ara.png');
+    background-size: cover;
+    text-align: center;
+    line-height: 100px;
+    color: #ff6a00;
+}
+
+.arama {
+    position: fixed;
+    left: 437px;
+    top: 259px;
+    width: 516px;
+    height: 120px;
+    background-size: cover;
+    text-align: center;
+    line-height: 100px;
+    color: #ff6a00;
+}
+.label {
+    position: fixed;
+    left: 303px;
+    top: 314px;
+    height: 189px;
+    background-size: cover;
+    color: #3f3d3a;
+    width: 68px;
+}
+.sonuclar {
+    position: fixed;
+    left: 438px;
+    top: 356px;
+    width: 443px;
+    height: 388px;
+    background-size: cover;
+    color: #3f3d3a;
+}

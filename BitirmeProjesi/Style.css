@@ -1,0 +1,57 @@
+﻿body {
+	background-color: #75827a;
+	font-family:'Impact';
+}
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#wrapper {
+	width: 990px;
+	height: 830px;
+	margin: 0 auto;
+	background-color: #8c9995;
+}
+.header {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	background-color: #3f3d3a;
+	color: #75827a;
+	text-align: center;
+	height: 45px;
+	line-height: 50px;
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #3f3d3a;
+	color: #75827a;
+	text-align: center;
+	height: 45px;
+	line-height: 50px;
+}
+.logo {
+	position: fixed;
+	left: 457px;
+	top: 147px;
+	width: 465px;
+	height: 100px;
+	background-image: url('/ımages/ara.png');
+	background-size: cover;
+}
+.arama {
+	position: fixed;
+	left: 437px;
+	top: 259px;
+	width: 516px;
+	height: 120px;
+	background-size: cover;
+	text-align: center;
+	line-height: 100px;
+	color: #ff6a00;
+}
